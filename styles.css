@@ -32,7 +32,7 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
-    fl
+
   }
   
   #header h1 {
@@ -62,7 +62,7 @@
   
   /* Hero Section */
   .hero {
-    background: url('./portfolio.jpg') center/cover no-repeat;
+    background: url('./images/portfolio.jpg') center/cover no-repeat;
     height: 90vh;
     display: flex;
     align-items: center;
