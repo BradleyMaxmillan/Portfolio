@@ -1,0 +1,264 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    fl
+  }
+  
+  #header h1 {
+    font-size: 2.5rem;
+  }
+  
+  #header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #nav-bar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f4a261;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('./portfolio.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color:#fff;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #E27D60;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #D8A47F;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E27D60;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #E27D60;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .portfolio-info {
+    padding: 15px;
+  }
+  
+  .portfolio-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E27D60;
+  }
+  
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    #header .container {
+      flex-direction: row;
+      gap: 0;
+    }
+    .nav-link {
+      display: none;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+    
+    .hero h2 {
+      font-size: 2rem;
+    }
+    
+    .hero p {
+      
+      font-size: 1.2rem;
+    }
+    
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
