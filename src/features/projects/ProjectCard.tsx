@@ -49,7 +49,7 @@ function ProjectCardComponent({ project, onOpen }: ProjectCardProps) {
 
         {/* Status badge */}
         {isInDevelopment && (
-          <Badge variant="warning" className="absolute top-2 right-2">
+          <Badge className="absolute top-2 right-2">
             In Development
           </Badge>
         )}
