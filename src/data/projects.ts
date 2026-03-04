@@ -103,7 +103,7 @@ export const projects: Project[] = [
       'Clean and modular code structure',
     ],
     githubUrl: 'https://github.com/BradleyMaxmillan/Portfolio',
-    liveUrl: 'https://anthony-maxmillan-portfolio.vercel.app/',
+    liveUrl: 'https://portfolio-kohl-iota-53.vercel.app/',
     imageLabel: 'Portfolio',
     imageUrl: '/images/portfolio.png',
   },
