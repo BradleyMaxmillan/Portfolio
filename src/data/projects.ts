@@ -103,7 +103,7 @@ export const projects: Project[] = [
       'Role-based dashboard architecture',
       'Containerized development with Docker',
     ],
-    githubUrl: 'https://github.com/BradleyMaxmillan',
+    githubUrl: 'https://github.com/BradleyMaxmillan/School-Managment-System',
     imageLabel: 'School Dashboard',
     imageUrl: '/images/school_dashboard.png',
   },
