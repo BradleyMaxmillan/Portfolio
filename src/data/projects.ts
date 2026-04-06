@@ -49,7 +49,7 @@ export const projects: Project[] = [
       'Book circulation and engagement visualizations',
       'Scalable MERN stack with dashboard analytics',
     ],
-    githubUrl: 'https://github.com/BradleyMaxmillan',
+    githubUrl: 'https://github.com/BradleyMaxmillan/Library-System-Managment',
     imageLabel: 'Library System',
     imageUrl: '/images/library_system.png',
   },
@@ -71,24 +71,6 @@ export const projects: Project[] = [
     imageUrl: '/images/expense_site.png',
   },
   {
-    id: 'school-management-system',
-    title: 'School Management System (Under Development)',
-    description:
-      'A full-stack school management platform currently under development, focused on interactive dashboards and academic performance visualization.',
-    longDescription:
-      'School Management System is an ongoing MERN stack project designed to unify academic records, student profiles, and administrative workflows. The system emphasizes interactive dashboards, performance analytics, and scalable architecture. Current development focuses on real-time data visualization, role-based access control, and modular backend APIs.',
-    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Prisma', 'Docker'],
-    highlights: [
-      '🚧 Currently in active development',
-      'Academic and attendance data visualizations',
-      'Role-based dashboard architecture',
-      'Containerized development with Docker',
-    ],
-    githubUrl: 'https://github.com/BradleyMaxmillan',
-    imageLabel: 'School Dashboard',
-    imageUrl: '/images/school_dashboard.png',
-  },
-  {
     id: 'portfolio-website',
     title: 'Personal Portfolio Website',
     description:
@@ -107,4 +89,23 @@ export const projects: Project[] = [
     imageLabel: 'Portfolio',
     imageUrl: '/images/portfolio.png',
   },
+  {
+    id: 'school-management-system',
+    title: 'School Management System (Under Development)',
+    description:
+      'A full-stack school management platform currently under development, focused on interactive dashboards and academic performance visualization.',
+    longDescription:
+      'School Management System is an ongoing MERN stack project designed to unify academic records, student profiles, and administrative workflows. The system emphasizes interactive dashboards, performance analytics, and scalable architecture. Current development focuses on real-time data visualization, role-based access control, and modular backend APIs.',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Prisma', 'Docker'],
+    highlights: [
+      '🚧 Currently in active development',
+      'Academic and attendance data visualizations',
+      'Role-based dashboard architecture',
+      'Containerized development with Docker',
+    ],
+    githubUrl: 'https://github.com/BradleyMaxmillan',
+    imageLabel: 'School Dashboard',
+    imageUrl: '/images/school_dashboard.png',
+  },
+  
 ]
